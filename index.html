@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <title>SecureLy</title>
+        <meta charset="UTF-8">
+        <title>Title</title>
+
+        <link href="stylesheet.css" rel="stylesheet">
+
+
+        <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+
+        <script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+        <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+
+        <script src="javascript.js" type="application/javascript"></script>
+
+
+    </head>
+
+    <body id="body">
+
+        <nav class="navbar " id="nav">
+            <span class="navbar-brand mb-0 h1" id="brandName">SecureLy</span>
+            <span class="navbar-brand mb-0 h3" id="aboutIcon">About</span>
+        </nav>
+
+
+        <div class="contentWeb">
+
+            <div class="form-group">
+                <label for="emailInput">Enter e-mail address to process:</label>
+                <input class="form-control" id="emailInput" placeholder="name@example.com" type="email">
+            </div>
+
+            <div class="buttons">
+
+                <button class="btn btn-success" id="submitButton" type="button">Process</button>
+
+                <button class="btn btn-danger" id="clearButton" type="button">Clear</button>
+
+            </div>
+
+            <div class="secureDetails" id="secureDiv">
+
+                <h2 id="isSecuredTitle">Your Account is unsecured!</h2>
+
+                <div class="row" >
+
+                    <div class="col-md-4 imgLogo">
+                        <img alt="icon_issecured" id="isSecuredLogo" src="unsecured.png">
+                    </div>
+
+                    <div class="col-md-8" id="isSecuredDetails">
+
+                        <div class="row">
+
+                            <div class="col-md-6">
+                                Name :
+                            </div>
+
+                            <div class="col-md-6" id="orgName">
+                                Name of Organisation
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-md-6">
+                                Title :
+                            </div>
+
+                            <div class="col-md-6" id="titleOrg">
+                                Title of Organization
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-md-6" >
+                                Breached Date :
+                            </div>
+
+                            <div class="col-md-6" id="breachDate">
+                                Breached happened Date
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-md-6">
+                                Domain :
+                            </div>
+
+                            <div class="col-md-6" id="domain">
+                                Domain Responsible for breach
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-md-6">
+                                Description :
+                            </div>
+
+                            <div class="col-md-6" id="description">
+                                How the data is breached
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="aboutSection">
+
+                <div>
+                   <p id="close">X Close</p>
+                </div>
+
+                <div class="contentAbout">
+
+                    This site serves two primary purposes for me: firstly, it obviously provides a service to the public. Data breaches are rampant and many people don't
+                    appreciate the scale or frequency with which they occur. By aggregating the data here I hope that it not only helps victims learn of compromises of their accounts, but also highlights the severity of the risks of online attacks on today's internet.
+
+                    Secondly, the site provided me with an excellent use case for putting a number of technologies through their paces and keeping my hands-on skills somewhat current.
+                    Projects like this are an excellent way of staying relevant as my day job increasingly focuses more on software management and less on actually building things (which I happen to love doing!) It's been an enormously fulfilling journey
+                    that I've invited others to join me on by way of often blogging in depth about the process, something I intend to keep up as the site inevitably evolves over time
+                </div>
+
+            </div>
+
+            <div id="loader">
+                <img src="loader.gif" alt="loader" >
+            </div>
+
+
+        </div>
+
+    </body>
+</html>

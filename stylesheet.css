@@ -1,0 +1,132 @@
+#body
+{
+    background-color: #3C4252;
+}
+
+#nav
+{
+    border: 1px solid white;
+    border-radius: 200px;
+    margin: 2%;
+}
+
+#brandName
+{
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+    margin-left: 2%;
+    font-size: 180%;
+}
+
+#aboutIcon
+{
+    float: end;
+    color: white;
+}
+
+.contentWeb
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.form-group
+{
+    margin-top: 10%;
+    color: #1CA2D4;
+    width: 60%;
+}
+
+.btn
+{
+    width: 10%;
+}
+
+.buttons
+{
+    width: 60%;
+    text-align: center;
+}
+
+.secureDetails
+{
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5% 0% 5% 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: none;
+}
+
+#isSecuredTitle
+{
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.row
+{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.imgLogo
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#isSecuredLogo
+{
+    width: 50%;
+    height: 80%;
+}
+
+#clearButton
+{
+    display: none;
+}
+
+#aboutSection
+{
+    position: fixed;
+    width: 60%;
+    top: 20%;
+    background-color: white;
+    padding: 1%;
+    color: #1CA2D4;
+    margin-top: 0%;
+    border-radius: 20px;
+    display: none;
+    border: 2px solid #1CA2D4;
+    box-shadow: 5px 5px 0px 0px #cccccc;
+}
+
+#close
+{
+    text-align: end;
+    color: red;
+    cursor: pointer;
+}
+
+.contentAbout
+{
+    padding: 6%;
+}
+
+#aboutIcon
+{
+    cursor: pointer;
+}
+
+#loader
+{
+    position: fixed;
+    top: 33%;
+    display: none;
+}
